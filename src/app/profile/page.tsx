@@ -17,13 +17,7 @@ export default function Profile() {
 		console.log('product :>> ', product),
 		(
 			<div className={styles.headingtext}>
-				<div className='products-container'>
-					{product.map((product) => (
-						<div key={product.id}>
-							<li>{product.brand}</li>
-						</div>
-					))}
-				</div>
+				<div className='products-container'></div>
 			</div>
 		)
 	);
