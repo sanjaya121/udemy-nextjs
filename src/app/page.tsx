@@ -7,7 +7,7 @@ export default function Home() {
 
 			<div className='img-container'>
 				<Image
-					src='/img/construction.svg'
+					src='/img/gear-spinner.svg'
 					alt='hero animation'
 					width={500}
 					height={500}
